@@ -61,6 +61,7 @@
   <ItemGroup>
     <Folder Include="Properties" />
     <Folder Include="func" />
+    <Folder Include="sqlqueries" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="System" />
@@ -80,5 +81,11 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="UserGroupDemo.publish.xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Build Include="sqlqueries\misc.sql" />
+    <Build Include="sqlqueries\queries.sql" />
+    <Build Include="sqlqueries\selects.sql" />
+    <Build Include="sqlqueries\SQLQuery3.sql" />
   </ItemGroup>
 </Project>
